@@ -1,0 +1,10 @@
+<?php
+include("masters/master.php");
+?>
+<h3>Clients</h3>
+<?php
+include("php/clients.php");
+?>
+<?php
+include("masters/footer.php");
+?>

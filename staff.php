@@ -1,0 +1,9 @@
+<?php
+include("masters/master.php");
+?>
+<h2>Staff</h2>
+<br/>
+<?php
+include("php/staff.php");
+include("masters/footer.php");
+?>
