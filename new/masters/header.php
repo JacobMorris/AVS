@@ -25,6 +25,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="css/site.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Moderna - v2.0.1
@@ -53,10 +54,10 @@
         <ul>
           <li class="active"><a href="index.php">Home</a></li>
           <li><a href="clients.php">Clients</a></li>
-          <li><a href="#">Resources</a></li>
+          <li><a href="resources.php">Resources</a></li>
           <li><a href="staff.php">Staff</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Solutions</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="solutions.php">Solutions</a></li>
           <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </nav><!-- .nav-menu -->

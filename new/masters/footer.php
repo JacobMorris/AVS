@@ -10,10 +10,10 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="clients.php">Clients</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Resources</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="resources.php">Resources</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="staff.php">Staff</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Solutions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="solutions.php">Solutions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact</a></li>
             </ul>
           </div>
@@ -21,10 +21,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Cyclical Reassessment</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">General consulting</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Annual Trending</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Annual Maintenance</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php#Cyclical%20Reassessment">Cyclical Reassessment</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php#General%20Consulting">General Consulting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php#Annual%20Trending">Annual Trending</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php#Annual%20Maintenance">Annual Maintenance</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php">View All Services...</a></li>
             </ul>
           </div>
 

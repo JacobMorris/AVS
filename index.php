@@ -1,5 +1,6 @@
 <?php
 include("masters/master.php");
+include("php/index.php");
 ?>
 <script>
 $(document).ready(function(){
