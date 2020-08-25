@@ -38,16 +38,20 @@ include("masters/header.php");
               </div>
               <div class="col-md-6">
                 <div class="info-box">
+                <a href="mailto:info@avs-in.com">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
                   <p>info@avs-in.com</p>
+                </a>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
+                <a href="tel://7654576787">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
                   <p>(765)457-6787</p>
+                </a>
                 </div>
               </div>
             </div>

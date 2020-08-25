@@ -11,7 +11,7 @@ include("php/index.php");
         <div class="carousel-container">
           <h2 class="animated fadeInDown">Welcome to <span>Ad Valorem Solutions</span></h2>
           <p class="animated fadeInUp">A satisfied customer is the only true customer</p>
-          <a href="services.html" class="btn-get-started animated fadeInUp">Find out what we can do for you</a>
+          <a href="services.php" class="btn-get-started animated fadeInUp">Find out what we can do for you</a>
         </div>
       </div>
 

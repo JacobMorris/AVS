@@ -26,80 +26,94 @@ include("masters/header.php");
         <div class="row">
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card">
+            <a href="https://www.in.gov/dlgf/" target="_blank">
               <div class="card-img">
                 <img src="../images/company_logos/dlgf_logo.jpeg" alt="..." class="mx-auto d-block">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">(DLGF) Department of Local Government Finance</a></h5>
-                <div class="read-more"><a href="https://www.in.gov/dlgf/" target="_blank"><i class="icofont-arrow-right"></i>View</a></div>
+                <h5 class="card-title">(DLGF) Department of Local Government Finance</h5>
+                <div class="read-more"><a><i class="icofont-arrow-right"></i>View</a></div>
               </div>
+            </a>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card">
+            <a href="https://www.iaao.org/" target="_blank">
               <div class="card-img">
                 <img src="../images/company_logos/iaao_logo.png" alt="..." class="mx-auto d-block">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">IAAO</a></h5>
-                <div class="read-more"><a href="https://www.iaao.org/" target="_blank"><i class="icofont-arrow-right"></i>View</a></div>
+                <h5 class="card-title">IAAO</h5>
+                <div class="read-more"><a><i class="icofont-arrow-right"></i>View</a></div>
               </div>
+            </a>
             </div>
 
           </div>
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card">
+            <a href="https://iga.in.gov/legislative/laws/2015/ic/" target="_blank">
               <div class="card-img">
                 <img src="../images/company_logos/indiana_code_logo.png" alt="..." class="mx-auto d-block">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">Indiana Code (IC)</a></h5>
-                <div class="read-more"><a href="https://iga.in.gov/legislative/laws/2015/ic/" target="_blank"><i class="icofont-arrow-right"></i>View</a></div>
+                <h5 class="card-title">Indiana Code (IC)</h5>
+                <div class="read-more"><a><i class="icofont-arrow-right"></i>View</a></div>
               </div>
+            </a>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card">
+            <a href="https://in.gov/legislative/iac/" target="_blank">
               <div class="card-img">
                 <img src="../images/company_logos/default_logo.png" alt="..." class="mx-auto d-block">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">(IAC) Indiana Administrative Code</a></h5>
-                <div class="read-more"><a href="https://in.gov/legislative/iac/" target="_blank"><i class="icofont-arrow-right"></i>View</a></div>
+                <h5 class="card-title">(IAC) Indiana Administrative Code</h5>
+                <div class="read-more"><a><i class="icofont-arrow-right"></i>View</a></div>
               </div>
+            </a>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card">
+            <a href="https://in.gov/ibtr" target="_blank">
               <div class="card-img">
                 <img src="../images/company_logos/default_logo.png" alt="..." class="mx-auto d-block">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">(IBTR) Indiana Board of Tax Review</a></h5>
-                <div class="read-more"><a href="https://in.gov/ibtr/" target="_blank"><i class="icofont-arrow-right"></i>View</a></div>
+                <h5 class="card-title">(IBTR) Indiana Board of Tax Review</h5>
+                <div class="read-more"><a><i class="icofont-arrow-right"></i>View</a></div>
               </div>
+            </a>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card">
+            <a href="https://indianacounties.org/" target="_blank">
               <div class="card-img">
                 <img src="../images/company_logos/indianacounties_logo.png" alt="..." class="mx-auto d-block">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">Association of Indiana Counties</a></h5>
-                <div class="read-more"><a href="https://indianacounties.org/" target="_blank"><i class="icofont-arrow-right"></i>View</a></div>
+                <h5 class="card-title">Association of Indiana Counties</h5>
+                <div class="read-more"><a><i class="icofont-arrow-right"></i>View</a></div>
               </div>
+            </a>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card">
+            <a href="https://indianatownshipassoc.org/" target="_blank">
               <div class="card-img">
                 <img src="../images/company_logos/indiana_township_logo.png" alt="..." class="mx-auto d-block">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">Indiana Township Association</a></h5>
-                <div class="read-more"><a href="https://indianatownshipassoc.org/" target="_blank"><i class="icofont-arrow-right"></i>View</a></div>
+                <h5 class="card-title">Indiana Township Association</h5>
+                <div class="read-more"><a><i class="icofont-arrow-right"></i>View</a></div>
               </div>
+            </a>
             </div>
           </div>
         </div>

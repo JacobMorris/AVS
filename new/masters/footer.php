@@ -34,9 +34,9 @@
             <p>
               506 E. North Street <br>
               Kokomo, IN 46901<br>
-              <strong>Phone:</strong> (765)457-6787<br>
+              <strong>Phone:</strong><a href="tel://7654576787">(765)457-6787</a><br>
               <strong>Fax:</strong> (765)457-6788<br>
-              <strong>Email:</strong> info@avs-in.com<br>
+              <strong>Email:</strong><a href="mailto:info@avs-in.com">info@avs-in.com</a><br>
             </p>
 
           </div>
