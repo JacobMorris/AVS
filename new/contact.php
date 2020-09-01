@@ -1,6 +1,7 @@
 
 <?php
-include("masters/header.php");
+include("masters/master.php");
+include("php/contact.php");
 ?>
   <main id="main">
 

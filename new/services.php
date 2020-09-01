@@ -1,5 +1,5 @@
 <?php
-include("masters/header.php");
+include("masters/master.php");
 ?>
 
   <main id="main">

@@ -1,3 +1,22 @@
+<?php
+
+if(basename($_SERVER['PHP_SELF']) == "index.php"){
+	$active = "home";
+    $header = "header-transparent";
+} elseif(basename($_SERVER['PHP_SELF']) == "clients.php"){
+	$active = "clients";
+} elseif(basename($_SERVER['PHP_SELF']) == "resources.php"){
+	$active = "resources";
+} elseif(basename($_SERVER['PHP_SELF']) == "staff.php"){
+	$active = "staff";
+} elseif(basename($_SERVER['PHP_SELF']) == "services.php"){
+	$active = "services";
+} elseif(basename($_SERVER['PHP_SELF']) == "solutions.php"){
+	$active = "solutions";
+} elseif(basename($_SERVER['PHP_SELF']) == "contact.php"){
+	$active = "contact";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +44,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="css/site.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Moderna - v2.0.1
@@ -40,7 +60,7 @@
 
 ?>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
+  <header id="header" class="fixed-top <?php if(isset($header)) {echo "header-transparent"; } ?>">
     <div class="container">
 
       <div class="logo float-left">
@@ -51,13 +71,13 @@
 
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.php">Home</a></li>
-          <li><a href="clients.php">Clients</a></li>
-          <li><a href="resources.php">Resources</a></li>
-          <li><a href="staff.php">Staff</a></li>
-          <li><a href="services.php">Services</a></li>
-          <li><a href="solutions.php">Solutions</a></li>
-          <li><a href="contact.php">Contact Us</a></li>
+          <li class="<?php if((isset($active)) && ($active == "home")) {echo "active"; } ?>"><a href="index.php">Home</a></li>
+          <li class="<?php if((isset($active)) && ($active == "clients")) {echo "active"; } ?>"><a href="clients.php">Clients</a></li>
+          <li class="<?php if((isset($active)) && ($active == "resources")) {echo "active"; } ?>"><a href="resources.php">Resources</a></li>
+          <li class="<?php if((isset($active)) && ($active == "staff")) {echo "active"; } ?>"><a href="staff.php">Staff</a></li>
+          <li class="<?php if((isset($active)) && ($active == "services")) {echo "active"; } ?>"><a href="services.php">Services</a></li>
+          <li class="<?php if((isset($active)) && ($active == "solutions")) {echo "active"; } ?>"><a href="solutions.php">Solutions</a></li>
+          <li class="<?php if((isset($active)) && ($active == "contact")) {echo "active"; } ?>"><a href="contact.php">Contact Us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
