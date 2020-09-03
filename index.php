@@ -2,37 +2,39 @@
 include("masters/master.php");
 include("php/index.php");
 ?>
-<script>
-$(document).ready(function(){
-$('#myCarousel').carousel({
-  interval: 1000 * 2
-});
-});
-</script>
-<div style='font-style:italic;margin:15px 0;font-size:20px;'>
-<?php if(isset($toptext)) {echo $toptext;} ?>
-</div>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-      <?php if (isset($datatarget)) {echo $datatarget;} ?>
-  </ol>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animated fadeInDown">Welcome to <span>Ad Valorem Solutions</span></h2>
+          <p class="animated fadeInUp">A satisfied customer is the only true customer</p>
+          <a href="services.php" class="btn-get-started animated fadeInUp">Find out what we can do for you</a>
+        </div>
+      </div>
+
       <?php if (isset($carouselimage)) {echo $carouselimage;} ?>
-  </div>
 
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+<?php
+include("shared/services_component.php");
+?>
+  </main><!-- End #main -->
 
 <?php
 include("masters/footer.php");

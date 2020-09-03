@@ -2,17 +2,18 @@
 $services = GetDBData("Select Title, Description From Services");
 $html = "";
 for($t = 0; $t< count($services); $t++){
-$serviceArray = (explode("|",implode("|" ,$services[$t])));
-$html = $html . "<div class='panel panel-default'>" .
-    "<div class='panel-heading'>" .
-      "<h4 class='panel-title'>" .
-        "<a data-toggle='collapse' data-parent='#accordion' href='#collapse" . $t . "'>" . $serviceArray[0] . "</a>" .
-      "</h4>" .
-    "</div>" .
-    "<div id='collapse" . $t . "' class='panel-collapse collapse'>" .
-      "<div class='panel-body'><p>" . $serviceArray[1] . "</p></div>" .
-    "</div>" .
-  "</div>";
+    $serviceArray = (explode("|",implode("|" ,$services[$t])));
+
+
+    $html = $html . "<div class='col-md-6 d-flex align-items-stretch' data-aos='fade-up'>" .
+                     "<div id='" . $serviceArray[0] . "' class='card'>" .
+                      "<div class='card-body'>" .
+                       "<h5 class='card-title'>" . $serviceArray[0] . "</h5>" .
+                       "<p class='card-text'>" . $serviceArray[1] . "</p>" .
+                      "</div>" .
+                     "</div>" .
+                    "</div>";
+
 }
 echo $html;
 ?>
